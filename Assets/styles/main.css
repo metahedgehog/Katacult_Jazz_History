@@ -1,0 +1,104 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+.bg-black {
+    background: #010201;
+}
+
+.bg-white {
+    background: #F5F5F5;
+}
+
+.grid {
+    display: flex;
+    height: 100vh;
+    flex-wrap: wrap;
+    margin: 0 -4x;
+    padding: 1%;
+}
+
+.box {
+    display: flex;
+    a
+
+}
+
+
+.col {
+    padding: 0 4px;
+    border: grey solid 1px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.col + .col{
+    margin-top: 0px;
+}
+
+
+.col-1 {
+    width: calc(100% / 12);
+}
+
+.col-2 {
+    width: calc(100% / 12 *2);
+    
+}
+
+.col-3 {
+    width: calc(100% / 12 * 3);
+}
+
+.col-4 {
+    width: calc(100% / 12 * 4);
+}
+
+.col-5 {
+    width: calc(100% / 12 * 5);
+}
+
+.col-6 {
+    width: calc(100% / 12 * 6);
+}
+
+.col-7 {
+    width: calc(100% / 12 * 7);
+}
+
+.col-8 {
+    width: calc(100% / 12 * 8);
+}
+
+.col-9 {
+    width: calc(100% / 12 * 9);
+}
+
+.col-10 {
+    width: calc(100% / 12 * 10);
+}
+
+.col-11 {
+    width: calc(100% / 12 * 11);
+}
+
+.col-12 {
+    width: calc(100% / 12 * 12);
+}
+
+img {
+
+    width: 100%;
+  
+  }
+
+html {
+    scroll-behavior: smooth;
+  }
