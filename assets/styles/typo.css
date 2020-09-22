@@ -17,9 +17,28 @@ h1{
 h3{
     font-family: "Formular Bold";
     font-variant-numeric: oldstyle-nums;
-    font-size: 5vw;
-    margin-block-start: -4vw;
-    margin-block-end: -4vw;
+    font-size: 4.5vw;
+
+    user-select: none; /* supported by Chrome and Opera */
+   -webkit-user-select: none; /* Safari */
+   -khtml-user-select: none; /* Konqueror HTML */
+   -moz-user-select: none; /* Firefox */
+   -ms-user-select: none; /* Internet Explorer/Edge */
+
+}
+
+h2{
+    font-family: "Formular Bold";
+    font-variant-numeric: oldstyle-nums;
+    font-size: 7vw;
+    line-height: 0.9;
+    margin-block-start: 3vh;
+    margin-block-end: -3vw;
+    user-select: none; /* supported by Chrome and Opera */
+   -webkit-user-select: none; /* Safari */
+   -khtml-user-select: none; /* Konqueror HTML */
+   -moz-user-select: none; /* Firefox */
+   -ms-user-select: none; /* Internet Explorer/Edge */
 
 }
 
@@ -38,8 +57,14 @@ h3{
 p {
     font-family: "Formular Regular";
     font-variant-numeric: oldstyle-nums;
-    font-size: 1vw;
+    font-size: 2vw;
    
+}
+
+.small-text{
+    font-family: "Formular Regular";
+    font-variant-numeric: oldstyle-nums;
+    font-size: 1vw;
 }
 
 a {
@@ -47,4 +72,9 @@ a {
     font-variant-numeric: oldstyle-nums;
     font-size: 1vw;
     color: #FF5500;
+}
+
+h3:hover{
+    color: #FF5500;
+    transition: color 0.2s ease, 0.3s ease;
 }

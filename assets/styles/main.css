@@ -4,9 +4,14 @@
     box-sizing: border-box;
 }
 
+header{
+    z-index: 5;
+}
+
 body{
     margin: 0;
 }
+
 
 .bg-black {
     background: #010201;
@@ -18,23 +23,21 @@ body{
 
 .grid {
     display: flex;
-    height: 100vh;
+    min-height: 100vh;
     flex-wrap: wrap;
     margin: 0 -4x;
     padding: 1%;
 }
 
 .box {
+    padding-top: 7%;
     display: flex;
-    a
-
 }
 
 
 .col {
-    padding: 0 4px;
+    padding-top: 0.5%;
     border: grey solid 1px;
-    padding: 10px;
     display: flex;
     flex-direction: column;
 }
@@ -94,11 +97,22 @@ body{
 }
 
 img {
-
     width: 100%;
-  
+    overflow: hidden;
   }
 
 html {
     scroll-behavior: smooth;
   }
+
+.non-selecteble{
+    user-select: none; /* supported by Chrome and Opera */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+}
+
+.mask{
+    object-fit: cover;
+}
