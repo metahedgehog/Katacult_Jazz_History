@@ -18,7 +18,7 @@ h3{
     font-family: "Formular Bold";
     font-variant-numeric: oldstyle-nums;
     font-size: 4.5vw;
-
+    color:  #010201;
     user-select: none; /* supported by Chrome and Opera */
    -webkit-user-select: none; /* Safari */
    -khtml-user-select: none; /* Konqueror HTML */
@@ -70,8 +70,7 @@ p {
 a {
     font-family: "Formular Regular";
     font-variant-numeric: oldstyle-nums;
-    font-size: 1vw;
-    color: #FF5500;
+    text-decoration: none;
 }
 
 h3:hover{

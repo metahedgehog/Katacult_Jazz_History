@@ -1,0 +1,32 @@
+<body>
+    <header>
+        <div class="navigation" id="navigation">
+            <div class="col col-1" >
+                <a href="index.html" class="active">НАЗАД</a>
+            </div>
+            <div class="col col-8"></div>
+
+            <div class="col col-3" style="flex-direction: row-reverse;">
+                
+                <a href="https://katacult.com/"><img src="assets/Katacult/katacult_logo.svg"
+                    alt="katacult-logo" style="width: 15vw;"></a>
+            </div>
+        </div>
+
+        <script>
+            window.onscroll = function () { navigationOnTop() };
+
+            var navigation = document.getElementById("navigation");
+            var sticky = navigation.offsetTop;
+
+            function navigationOnTop() {
+                if (window.pageYOffset >= sticky) {
+                    navigation.classList.add("sticky");
+                } else {
+                    navigation.classList.remove("sticky");
+                }
+            }
+        </script>
+
+    </header>
+</body>
