@@ -199,12 +199,22 @@ img {
 
 @font-face {
     font-family: "Formular Regular";
-    src: url(/Katacult_Jazz_History/assets/Katacult/fonts/Formular-Regular.otf);
+    src: url(/Katacult_Jazz_History/assets/Katacult/fonts/Formular-Regular.eot);
+    src: url(/Katacult_Jazz_History/assets/Katacult/fonts/Formular-Regular.woff2)format('woff2'),
+    url(/Katacult_Jazz_History/assets/Katacult/fonts/Formular-Regular.woff)format('woff'),
+    url(/Katacult_Jazz_History/assets/Katacult/fonts/Formular-Regular.otf)format('opentype'),
+    url(/Katacult_Jazz_History/assets/Katacult/fonts/Formular-Regular.ttf)format('truetype'),
+    url(/Katacult_Jazz_History/assets/Katacult/fonts/Formular-Regular.svg)format('svg');
 }
 
 @font-face {
     font-family: "Formular Bold";
-    src: url(/Katacult_Jazz_History/assets/Katacult/fonts/Formular-Bold.otf);
+    src: url(/Katacult_Jazz_History/assets/Katacult/fonts/Formular-Bold.eot);
+    src: url(/Katacult_Jazz_History/assets/Katacult/fonts/Formular-Bold.woff2)format("woff2"),
+    url(/Katacult_Jazz_History/assets/Katacult/fonts/Formular-Bold.woff)format("woff"),
+    url(/Katacult_Jazz_History/assets/Katacult/fonts/Formular-Bold.otf)format("opentype"),
+    url(/Katacult_Jazz_History/assets/Katacult/fonts/Formular-Bold.ttf)format('truetype'),
+    url(/Katacult_Jazz_History/assets/Katacult/fonts/Formular-Bold.svg)format('svg');
 }
 
 h1{
