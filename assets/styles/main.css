@@ -16,7 +16,7 @@ html{
 
     .grid {
         display: flex;
-        padding: 7%;
+        padding: 2%;
         min-height: 40vh;
     }
 
@@ -42,7 +42,7 @@ html{
     .col {
         display: flex;
         padding: 1%;
-        border: grey solid 0rem;
+        border: grey solid 0.1rem;
         flex-direction: column;
 
     }
@@ -205,7 +205,7 @@ img {
 }
 
 @font-face {
-    font-family: "Formular Bold";
+    font-family: 'Formular Bold';
     src: url(/Katacult_Jazz_History/assets/Katacult/fonts/Formular-Bold.eot);
     src: url(/Katacult_Jazz_History/assets/Katacult/fonts/Formular-Bold.woff2)format("woff2"),
     url(/Katacult_Jazz_History/assets/Katacult/fonts/Formular-Bold.woff)format("woff"),
@@ -215,19 +215,19 @@ img {
 }
 
 h1{
-    font-family: "Formular Bold";
+    font-family: 'Formular Bold';
 }
 
 
 h3{
-    font-family: "Formular Bold";
+    font-family: 'Formular Bold';
     font-size: 6rem;
     color:  #010201;
 
 }
 
 h2{
-    font-family: "Formular Bold";
+    font-family: 'Formular Bold';
     font-size: 12rem;
     margin-block-start: 3rem;
     margin-block-end: -1rem;
@@ -253,13 +253,13 @@ p {
 }
 
 .small-text{
-    font-family: "Formular Regular";
+    font-family: 'Formular';
     font-variant-numeric: oldstyle-nums;
     font-size: 2rem;
 }
 
 a {
-    font-family: "Formular Regular";
+    font-family: 'Formular';
     text-decoration: none;
 }
 
