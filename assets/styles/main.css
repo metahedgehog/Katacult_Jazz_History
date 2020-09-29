@@ -4,9 +4,106 @@
     box-sizing: border-box;
 }
 
-header{
-    z-index: 5;
+html{
+    scroll-behavior: smooth;
 }
+
+@media (max-width: 834px) {
+
+    html{
+        font-size: 4px;
+    }
+
+    .grid {
+        display: flex;
+        padding: 7%;
+        min-height: 40vh;
+    }
+
+    .navigation {
+        display: flex;
+        padding: 0% 1.1% 0% 1.1%;
+        background-color:white;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        border-top: solid #FF5500 0.5rem;
+        
+      }
+      
+    .navigation a {
+        color: #010201;
+        text-decoration: none;
+        font-size: 7rem;
+        transition: color 0.2s, 0.3s ease;
+        font-weight: 800;
+      }
+
+    .col {
+        display: flex;
+        padding: 1%;
+        border: grey solid 0.1rem;
+        flex-direction: column;
+
+    }
+    .navigation .col-1{
+        flex-direction: row;
+        width: 500px;
+    }
+    .navigation img{
+        max-height: 10rem;
+        max-width: 30rem;
+
+    }
+
+    }
+
+@media (min-width: 834px) {
+    html{
+        font-size: calc(10 / 1920 * 100vw);
+    }
+
+    .grid {
+        display: flex;
+        min-height: 100vh;
+        flex-wrap: wrap;
+        padding: 1.1%;
+    }
+
+    .navigation {
+        overflow: hidden;
+        display: flex;
+        position: sticky;
+        flex-wrap: wrap;
+        width: 100%;
+        padding: 0% 1.1% 0% 1.1%;
+        background-color: #010201;
+      }
+
+      
+    .navigation a {
+        display: block;
+        color: #FF5500;
+        text-decoration: none;
+        font-size: 2rem;
+        transition: color 0.2s, 0.3s ease;
+      }
+
+     .navigation img{
+        max-width: 30rem;
+        max-height: 5rem;
+
+    }
+
+      .col {
+        display: flex;
+        padding-top: 0.5%;
+        border: grey solid 0.1rem;
+        flex-direction: column;
+    }
+
+}
+
 
 body{
     margin: 0;
@@ -21,13 +118,6 @@ body{
     background: #F5F5F5;
 }
 
-.grid {
-    display: flex;
-    min-height: 100vh;
-    flex-wrap: wrap;
-    margin: 0 -4x;
-    padding: 1%;
-}
 
 .box {
     padding-top: 7%;
@@ -35,15 +125,8 @@ body{
 }
 
 
-.col {
-    padding-top: 0.5%;
-    border: grey solid 1px;
-    display: flex;
-    flex-direction: column;
-}
-
 .col + .col{
-    margin-top: 0px;
+    margin-top: 0;
 }
 
 
@@ -101,9 +184,6 @@ img {
     overflow: hidden;
   }
 
-html {
-    scroll-behavior: smooth;
-  }
 
 .non-selecteble{
     user-select: none; /* supported by Chrome and Opera */
@@ -116,3 +196,85 @@ html {
 .mask{
     object-fit: cover;
 }
+
+@font-face {
+    font-family: "Formular Regular";
+    src: url(/Katacult_Jazz_History/assets/Katacult/fonts/Formular-Regular.woff2);
+}
+
+@font-face {
+    font-family: "Formular Bold";
+    src: url(/Katacult_Jazz_History/assets/Katacult/fonts/Formular-Bold.woff2);
+}
+
+h1{
+    font-family: "Formular Bold";
+}
+
+
+h3{
+    font-family: "Formular Bold";
+    font-size: 6rem;
+    color:  #010201;
+
+}
+
+h2{
+    font-family: "Formular Bold";
+    font-size: 12rem;
+    margin-block-start: 3rem;
+    margin-block-end: -1rem;
+}
+
+.text-orange {
+    color: #FF5500;
+}
+
+.text-white {
+    color: white ;
+}
+
+.text-black {
+    color:  #010201
+}
+
+p {
+    font-family: "Formular Regular";
+    font-variant-numeric: oldstyle-nums;
+    font-size: 3.2rem;
+   
+}
+
+.small-text{
+    font-family: "Formular Regular";
+    font-variant-numeric: oldstyle-nums;
+    font-size: 2rem;
+}
+
+a {
+    font-family: "Formular Regular";
+    text-decoration: none;
+}
+
+h3:hover{
+    color: #FF5500;
+    transition: color 0.2s, 0.3s ease;
+}
+
+  
+  .navigation a:hover {
+    color: white;
+  }
+
+  
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .sticky + .content {
+    padding-top: 5rem;
+  }
+
+ 

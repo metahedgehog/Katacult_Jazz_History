@@ -1,36 +1,58 @@
 <body>
     <header>
+
+        <script>
+            var imageUrl = "katacult_logo.svg";
+            var $window = $(window);
+            var lastWindowWidth = $window.width();
+
+            $window.resize(function () {
+                var windowWidth = $window.width();
+                if (lastWindowWidth !== windowWidth) {
+                    lastWindowWidth = windowWidth;
+                }
+                
+            });
+
+            if (lastWindowWidth <= 834){
+                    imageUrl = "katacult_logo-small.svg";
+                }
+            document.getElementById('logo').src = imageUrl;
+
+        </script>
+
         <div class="navigation" id="navigation">
-            <div class="col col-3" >
-               <a href="https://katacult.com/"><img src="assets/Katacult/katacult_logo.svg"
-                            alt="katacult-logo" style="width: 15vw;"></a>
+            <div class="col col-3">
+                <a href="https://katacult.com/"><img src="" id="logo" alt="katacult-logo"></a>
             </div>
-            <div class="col col-6"></div>
+            <div class="col col-7"></div>
             <div class="col col-1">
                 <a href="main.html" class="active">МЕНЮ</a>
             </div>
-            <div class="col col-1">
+            <div class="col col-1" style="flex-direction: row-reverse;">
                 <a href="https://tickets.katacult.com/" class="active">БИЛЕТЫ</a>
             </div>
-            <div class="col col-1" style="flex-direction: row-reverse;">
-                <a href="main.html" class="active">EN</a>
-            </div>
+
         </div>
-
-        <script>
-            window.onscroll = function () { navigationOnTop() };
-
-            var navigation = document.getElementById("navigation");
-            var sticky = navigation.offsetTop;
-
-            function navigationOnTop() {
-                if (window.pageYOffset >= sticky) {
-                    navigation.classList.add("sticky");
-                } else {
-                    navigation.classList.remove("sticky");
-                }
-            }
-        </script>
-
     </header>
+
+    <script>
+        window.onscroll = function () { navigationOnTop() };
+
+        var deviceWidth = window.innerWidth;
+        var navigation = document.getElementById("navigation");
+        var sticky = navigation.offsetTop;
+
+        function navigationOnTop() {
+            if (window.pageYOffset >= sticky) {
+                navigation.classList.add("sticky");
+            } else {
+                navigation.classList.remove("sticky");
+            }
+
+        }
+
+
+
+    </script>
 </body>
