@@ -195,7 +195,7 @@ img {
 
 .mask{
     object-fit: cover;
-
+    
 }
 
 @font-face {
@@ -251,14 +251,14 @@ h2{
 
 p {
     font-family: "Formular Regular";
-    
+    font-variant-numeric: oldstyle-nums;
     font-size: 3.2rem;
    
 }
 
 .small-text{
     font-family: "Formular Regular";
-  
+    font-variant-numeric: oldstyle-nums;
     font-size: 2rem;
 }
 
