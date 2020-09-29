@@ -204,7 +204,7 @@ img {
     src: url(/Katacult_Jazz_History/assets/Katacult/fonts/Formular-Regular.woff2)format('woff2'),
     url(/Katacult_Jazz_History/assets/Katacult/fonts/Formular-Regular.woff)format('woff'),
     url(/Katacult_Jazz_History/assets/Katacult/fonts/Formular-Regular.otf)format('opentype'),
-    url(/Katacult_Jazz_History/assets/Katacult/fonts/Formular-Regular.ttf)format('truetype'),
+    url(/Katacult_Jazz_History/assets/Katacult/fonts/formular-regular-webfont.ttf)format('truetype'),
     url(/Katacult_Jazz_History/assets/Katacult/fonts/Formular-Regular.svg)format('svg');
 }
 
@@ -214,7 +214,7 @@ img {
     src: url(/Katacult_Jazz_History/assets/Katacult/fonts/Formular-Bold.woff2)format("woff2"),
     url(/Katacult_Jazz_History/assets/Katacult/fonts/Formular-Bold.woff)format("woff"),
     url(/Katacult_Jazz_History/assets/Katacult/fonts/Formular-Bold.otf)format("opentype"),
-    url(/Katacult_Jazz_History/assets/Katacult/fonts/Formular-Bold.ttf)format('truetype'),
+    url(/Katacult_Jazz_History/assets/Katacult/fonts/formular-bold-webfont.ttf)format('truetype'),
     url(/Katacult_Jazz_History/assets/Katacult/fonts/Formular-Bold.svg)format('svg');
 }
 
@@ -246,7 +246,7 @@ h2{
 }
 
 .text-black {
-    color:  #010201
+    color:  #010201;
 }
 
 p {
