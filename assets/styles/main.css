@@ -98,7 +98,7 @@ html{
       .col {
         display: flex;
         padding-top: 0.5%;
-        border: grey solid 0.1rem;
+        border: grey solid 0rem;
         flex-direction: column;
     }
 
