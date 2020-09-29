@@ -20,6 +20,11 @@ html{
         min-height: 40vh;
     }
 
+    .grid :first-of-type{
+        margin-top: 5rem;
+    }
+
+
     .navigation {
         display: flex;
         padding: 0% 1.1% 0% 1.1%;
@@ -41,8 +46,8 @@ html{
 
     .col {
         display: flex;
-        padding: 1%;
-        border: grey solid 0.1rem;
+        padding: 0;
+        border: grey solid 0rem;
         flex-direction: column;
 
     }
