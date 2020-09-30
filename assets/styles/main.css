@@ -104,6 +104,8 @@ html{
         min-height: 100vh;
         flex-wrap: wrap;
         padding: 1.1%;
+        align-content: space-around;
+
     }
 
     .navigation {
@@ -133,7 +135,7 @@ html{
     .col {
         display: flex;
         padding: 0;
-        border: grey solid 0rem;
+        border: grey solid 0.1rem;
         flex-direction: column;
     }
 
@@ -274,7 +276,9 @@ h1{
     font-family: 'Formular Bold';
 }
 
-
+.reverse{
+    flex-direction: row-reverse;
+}
 
 .text-orange {
     color: #FF5500;
