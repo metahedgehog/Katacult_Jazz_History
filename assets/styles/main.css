@@ -17,14 +17,11 @@ html{
     .grid {
         display: flex;
         padding: 2%;
-        min-height: 40vh;
         flex-wrap: wrap;
-    }
-
-    .grid :first-of-type{
-        margin-top: 5rem;
-    }
-
+        min-height: 0vh;
+    
+    }    
+       
 
     .navigation {
         display: flex;
@@ -46,12 +43,14 @@ html{
       }
 
     .col {
+        float: left;
         display: flex;
         padding: 0;
-        border: grey solid 0rem;
+        border: grey solid 0.1rem;
         flex-direction: column;
-
+        
     }
+
     .navigation .col-1{
         flex-direction: row-reverse;
         width: 500px;
@@ -61,6 +60,36 @@ html{
         width: 30rem;
 
     }
+
+    .box {
+        align-content: flex-start;
+    }
+
+    h3{
+        font-family: 'Formular Bold';
+        font-size: 5rem;
+        color:  #010201;
+        transition: color 0.2s, 0.3s ease;
+        margin-block-start: 0rem;
+        margin-block-end: 0rem;
+    }
+    
+    h2{
+        font-family: 'Formular Bold';
+        font-size: 10rem;
+        margin-block-start: 0rem;
+        margin-block-end: 0rem;
+    }
+    
+    p {
+        font-family: 'Formular';
+        font-variant-numeric: oldstyle-nums;
+        font-size: 4rem;
+        margin-block-start: 0rem;
+        margin-block-end: 0rem;
+       
+    }
+    
 
     }
 
@@ -80,9 +109,8 @@ html{
         overflow: hidden;
         display: flex;
         position: sticky;
-        flex-wrap: wrap;
         width: 100%;
-        padding: 0.5% 1.1% 0% 1.1%;
+        padding: 0.3% 1.1% 0% 1%;
         background-color: #010201;
       }
 
@@ -108,11 +136,46 @@ html{
         flex-direction: column;
     }
 
+    .box {
+        float: left;
+        align-content: flex-start;
+    }
+
+    h3{
+        font-family: 'Formular Bold';
+        font-size: 6rem;
+        color:  #010201;
+        transition: color 0.2s, 0.3s ease;
+        margin-block-start: 0rem;
+        margin-block-end: 0rem;
+    }
+    
+    h2{
+        font-family: 'Formular Bold';
+        font-size: 12rem;
+        margin-block-start: 0rem;
+        margin-block-end: 0rem;
+    }
+    
+    p {
+        font-family: 'Formular';
+        font-variant-numeric: oldstyle-nums;
+        font-size: 3.2rem;
+        margin-block-start: 0rem;
+        margin-block-end: 0rem;
+       
+    }
+    
+
 }
 
 
 body{
     margin: 0;
+}
+
+.col + .col{
+    padding:  1rem;
 }
 
 
@@ -122,10 +185,6 @@ body{
 
 .bg-white {
     background: #F5F5F5;
-}
-
-.col + .col{
-    margin-top: 0;
 }
 
 
@@ -140,6 +199,7 @@ body{
 
 .col-3 {
     width: calc(100% / 12 * 3);
+    float: left;
 }
 
 .col-4 {
@@ -218,21 +278,6 @@ h1{
 }
 
 
-h3{
-    font-family: 'Formular Bold';
-    font-size: 6rem;
-    color:  #010201;
-    transition: color 0.2s, 0.3s ease;
-    margin-block-start: 0rem;
-    margin-block-end: 0rem;
-}
-
-h2{
-    font-family: 'Formular Bold';
-    font-size: 12rem;
-    margin-block-start: 0rem;
-    margin-block-end: 0rem;
-}
 
 .text-orange {
     color: #FF5500;
@@ -246,14 +291,6 @@ h2{
     color:  #010201;
 }
 
-p {
-    font-family: 'Formular';
-    font-variant-numeric: oldstyle-nums;
-    font-size: 3.2rem;
-    margin-block-start: 0rem;
-    margin-block-end: 0rem;
-   
-}
 
 .small-text{
     font-family: 'Formular';
@@ -290,10 +327,6 @@ h3:hover{
   
   .sticky + .content {
     padding-top: 5rem;
-  }
-
-  .box {
-      align-content: flex-start;
   }
 
   .reverse {
