@@ -18,6 +18,7 @@ html{
         display: flex;
         padding: 2%;
         min-height: 40vh;
+        flex-wrap: wrap;
     }
 
     .grid :first-of-type{
@@ -27,7 +28,7 @@ html{
 
     .navigation {
         display: flex;
-        padding: 0% 1.1% 0% 1.1%;
+        padding: 15px;
         background-color:white;
         position: fixed;
         bottom: 0;
@@ -81,7 +82,7 @@ html{
         position: sticky;
         flex-wrap: wrap;
         width: 100%;
-        padding: 0% 1.1% 0% 1.1%;
+        padding: 0.5% 1.1% 0% 1.1%;
         background-color: #010201;
       }
 
@@ -102,8 +103,8 @@ html{
 
       .col {
         display: flex;
-        padding-top: 0.5%;
-        border: grey solid 0rem;
+        padding: 0;
+        border: grey solid 0.1rem;
         flex-direction: column;
     }
 
@@ -122,13 +123,6 @@ body{
 .bg-white {
     background: #F5F5F5;
 }
-
-
-.box {
-    padding-top: 7%;
-    display: flex;
-}
-
 
 .col + .col{
     margin-top: 0;
@@ -228,14 +222,16 @@ h3{
     font-family: 'Formular Bold';
     font-size: 6rem;
     color:  #010201;
-
+    transition: color 0.2s, 0.3s ease;
+    margin-block-start: 0rem;
+    margin-block-end: 0rem;
 }
 
 h2{
     font-family: 'Formular Bold';
     font-size: 12rem;
-    margin-block-start: 3rem;
-    margin-block-end: -1rem;
+    margin-block-start: 0rem;
+    margin-block-end: 0rem;
 }
 
 .text-orange {
@@ -254,6 +250,8 @@ p {
     font-family: 'Formular';
     font-variant-numeric: oldstyle-nums;
     font-size: 3.2rem;
+    margin-block-start: 0rem;
+    margin-block-end: 0rem;
    
 }
 
@@ -270,7 +268,12 @@ a {
 
 h3:hover{
     color: #FF5500;
-    transition: color 0.2s, 0.3s ease;
+     user-select: none; /* supported by Chrome and Opera */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    
 }
 
   
@@ -288,5 +291,14 @@ h3:hover{
   .sticky + .content {
     padding-top: 5rem;
   }
+
+  .box {
+      align-content: flex-start;
+  }
+
+  .reverse {
+    flex-direction: column-reverse;
+}
+
 
  
