@@ -16,12 +16,22 @@ html{
 
     .grid {
         display: flex;
-        padding: 2%;
-        min-height: 50vh;
         flex-wrap: wrap;
+        align-content: space-around;
+    } 
     
-    }    
+    .wrap {
+        flex-wrap: wrap;
+    }
 
+    .col {
+        float: left;
+        display: flex;
+        padding: 2%;
+        border: grey solid 0.1rem;
+        flex-direction: column;
+        
+    }
 
     .navigation {
         display: flex;
@@ -42,14 +52,7 @@ html{
         font-weight: 800;
       }
 
-    .col {
-        float: left;
-        display: flex;
-        padding: 0;
-        border: grey solid 0rem;
-        flex-direction: column;
-        
-    }
+    
 
     .navigation .col-1{
         flex-direction: row-reverse;
@@ -63,7 +66,7 @@ html{
 
     .box {
         align-content: flex-start;
-        padding: 10%;
+        padding: 5%;
     }
 
     h3{
@@ -102,9 +105,20 @@ html{
     .grid {
         display: flex;
         min-height: 100vh;
-        flex-wrap: wrap;
         padding: 1.1%;
         align-content: space-around;
+        flex-wrap: wrap;
+
+    }
+
+    .wrap{
+        flex-wrap: wrap;
+    }
+    
+    .col {
+        float: left;
+        padding: 0;
+        border: grey solid 0.1rem;
 
     }
 
@@ -132,15 +146,9 @@ html{
 
     }
 
-    .col {
-        display: flex;
-        padding: 0;
-        border: grey solid 0.1rem;
-        flex-direction: column;
-    }
 
     .box {
-        float: left;
+        
         align-content: flex-start;
     }
 
@@ -297,6 +305,7 @@ h1{
     font-family: 'Formular';
     font-variant-numeric: oldstyle-nums;
     font-size: 2rem;
+    padding-top: 1.5rem;
 }
 
 a {
