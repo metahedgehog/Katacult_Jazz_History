@@ -46,7 +46,7 @@ html{
         float: left;
         display: flex;
         padding: 0;
-        border: grey solid 0.1rem;
+        border: grey solid 0rem;
         flex-direction: column;
         
     }
@@ -133,7 +133,7 @@ html{
     .col {
         display: flex;
         padding: 0;
-        border: grey solid 0.1rem;
+        border: grey solid 0rem;
         flex-direction: column;
     }
 
