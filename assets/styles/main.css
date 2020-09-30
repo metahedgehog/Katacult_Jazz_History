@@ -35,19 +35,18 @@ html{
 
     .navigation {
         display: flex;
-        padding: 15px;
-        background-color:white;
+        padding: 0.2rem;
+        background-color: #010201;
         position: fixed;
-        bottom: 0;
+        top: 0;
         width: 100%;
-        border-top: solid #FF5500 0.5rem;
         
       }
       
     .navigation a {
-        color: #010201;
+        color: #FF5500;
         text-decoration: none;
-        font-size: 5rem;
+        font-size: 3rem;
         transition: color 0.2s, 0.3s ease;
         font-weight: 800;
       }
@@ -55,12 +54,12 @@ html{
     
 
     .navigation .col-1{
-        flex-direction: row-reverse;
+        flex-direction: row;
         width: 500px;
     }
     .navigation img{
-        height: 8rem;
-        width: 30rem;
+        height: 5rem;
+
 
     }
 
