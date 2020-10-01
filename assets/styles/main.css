@@ -113,6 +113,11 @@ html{
         padding-top: 1rem;
         color: #FF5500;
     }
+
+    .hide-m{
+        visibility: hidden;
+        display: none;
+    }
     
 
     }
