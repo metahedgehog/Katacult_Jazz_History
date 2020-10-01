@@ -17,7 +17,8 @@ html{
     .grid {
         display: flex;
         flex-wrap: wrap;
-        min-height: 90rem;
+        min-height: 100rem;
+        padding-bottom: 10rem;
     }
     
     .wrap {
