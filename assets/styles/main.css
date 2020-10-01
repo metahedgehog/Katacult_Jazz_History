@@ -86,6 +86,7 @@ html{
         margin-block-start: 0rem;
         margin-block-end: 0rem;
         margin-top: -1.2rem;
+        letter-spacing: -0.2rem;
     }
     
     p {
@@ -177,7 +178,7 @@ html{
         transition: color 0.2s, 0.3s ease;
         margin-block-start: 0rem;
         margin-block-end: 0rem;
-        margin-top: -3rem;
+        margin-top: -2rem;
     }
     
     h2{
@@ -186,6 +187,7 @@ html{
         margin-block-start: 0rem;
         margin-block-end: 0rem;
         margin-top: -4rem;
+
     }
     
     p {
@@ -201,7 +203,9 @@ html{
         font-family: 'Formular';
         font-variant-numeric: oldstyle-nums;
         font-size: 2rem;
-        padding-top: 1.5rem;
+        margin-block-start: 0rem;
+        margin-block-end: 0rem;
+
     }
 
 }
@@ -345,6 +349,10 @@ h3:hover{
     -moz-user-select: none; /* Firefox */
     -ms-user-select: none; /* Internet Explorer/Edge */
     
+}
+
+.no-hover{
+        pointer-events: none;
 }
 
   
