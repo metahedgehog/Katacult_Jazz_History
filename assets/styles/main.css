@@ -129,7 +129,7 @@ html{
 
     .grid {
         display: flex;
-        min-height: 110vh;
+        height: 110vh;
         padding-top: 10vh;
         padding-left: 1.1%;
         padding-right: 1.1%;
@@ -231,6 +231,10 @@ html{
         text-align: left;
     }
     
+    .img-small {
+        width: 50%;
+        overflow: hidden;
+    }
 
 }
 
@@ -408,5 +412,6 @@ figure {
 
 figure + figure {
     margin-bottom: 5rem;
-    margin-top: 10rem;
+    margin-top: 5rem;
 }
+
