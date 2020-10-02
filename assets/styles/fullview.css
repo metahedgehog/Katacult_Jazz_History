@@ -159,7 +159,7 @@ html{
         padding-left: 0;
         padding-right: 0;
         padding-top: 15rem;
-        border: grey solid 0.1rem;
+        border: grey solid 0rem;
 
     }
 
@@ -334,8 +334,8 @@ img {
 }
 
 .mask{
+    height: 100vh;
     object-fit: cover;
-    
 }
 
 @font-face {
