@@ -129,8 +129,8 @@ html{
 
     .grid {
         display: flex;
-        min-height: 100vh;
-        padding-top: 15vh;
+        min-height: 110vh;
+        padding-top: 10vh;
         padding-left: 1.1%;
         padding-right: 1.1%;
         flex-wrap: wrap;
@@ -406,5 +406,7 @@ figure {
     flex-direction: column-reverse;
 }
 
-
- 
+figure + figure {
+    margin-bottom: 5rem;
+    margin-top: 10rem;
+}
