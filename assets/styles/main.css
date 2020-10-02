@@ -129,7 +129,7 @@ html{
 
     .grid {
         display: flex;
-        min-height: 100vh;
+        min-height: 110vh;
         padding-top: 10vh;
         padding-left: 1.1%;
         padding-right: 1.1%;
