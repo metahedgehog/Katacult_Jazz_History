@@ -231,8 +231,13 @@ html{
         text-align: left;
     }
     
-    .img-small {
-        width: 50%;
+    .img-40 {
+        width: 40%;
+        overflow: hidden;
+    }
+
+    .img-60 {
+        width: 60%;
         overflow: hidden;
     }
 
