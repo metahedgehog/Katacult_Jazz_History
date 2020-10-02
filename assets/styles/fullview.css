@@ -12,6 +12,7 @@ html{
 
     html{
         font-size: 4px;
+       
     }
 
     .grid {
@@ -125,18 +126,28 @@ html{
 @media (min-width: 834px) {
     html{
         font-size: calc(10 / 1920 * 100vw);
-      
+        overflow-x: hidden;
+        overflow-y: hidden;
+    
     }
 
 
+    #fullview>* {
+
+    height: 100vh !important;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    perspective: 1000;
+    overflow: hidden;
+    }
+
     .grid {
         display: flex;
-        min-height: 100vh;
-        padding-top: 10vh;
+        height: 100vh;
         padding-left: 1.1%;
         padding-right: 1.1%;
         flex-wrap: wrap;
-        
+        justify-content: space-evenly;
     }
 
     .wrap{
@@ -147,8 +158,8 @@ html{
         float: left;
         padding-left: 0;
         padding-right: 0;
-        padding-top: 7rem;
-        border: grey solid 0rem;
+        padding-top: 15rem;
+        border: grey solid 0.1rem;
 
     }
 
@@ -182,8 +193,8 @@ html{
     }
 
 
-    .box {
-        align-content: flex-start;
+    .no-paddingtop{
+        padding-top: 0;
     }
 
     h3{
@@ -420,4 +431,5 @@ figure + figure {
     margin-bottom: 5rem;
     margin-top: 5rem;
 }
+
 

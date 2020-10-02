@@ -8,14 +8,21 @@
     <link rel="styleshhet" href="https://cdnjs.cloudfare.com/ajax/libs/meyer-reset/2.0/reset.min.css" />
     <link rel="stylesheet" type="text/css" href="assets/styles/main.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="cropper.js"></script>
+    <script src="./scripts/fullview.js"></script>
+
 </head>
 
 <body>
 
     <script>
         $(document).ready(function () {
-                $('#navigation').load("navigation.html");
+            $("#fullview").fullView();
+        });
+    </script>
+    
+    <script>
+        $(document).ready(function () {
+            $('#navigation').load("navigation.html");
         });
     </script>
 
@@ -23,15 +30,15 @@
 
     <script>
         $(document).ready(function () {
-                $('#main').load("main.html");
+            $('#main').load("main.html");
         });
     </script>
 
     <div id="main"></div>
-    
+
     <script>
         $(document).ready(function () {
-                $('#dates').load("dates.html");
+            $('#dates').load("dates.html");
         });
     </script>
 
@@ -39,7 +46,7 @@
 
     <script>
         $(document).ready(function () {
-                $('#1912-1916').load("1912-1916.html");
+            $('#1912-1916').load("1912-1916.html");
         });
     </script>
 
@@ -47,11 +54,14 @@
 
     <script>
         $(document).ready(function () {
-                $('#1920-1940').load("1920-1940.html");
+            $('#1920-1940').load("1920-1940.html");
         });
     </script>
 
     <div id="1920-1940"></div>
 
+    
 
 </body>
+
+</html>
