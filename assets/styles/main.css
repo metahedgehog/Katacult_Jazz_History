@@ -10,6 +10,10 @@ html{
 
 @media (max-width: 1024px) {
 
+    iframe{
+        min-height: 40vh;
+    }
+
     html{
         font-size: 4px;
     }
@@ -17,8 +21,7 @@ html{
     .grid {
         display: flex;
         flex-wrap: wrap;
-        min-height: 60rem;
-        padding-bottom: 10rem;
+        padding-bottom: 5rem;
     }
     
     .wrap {
