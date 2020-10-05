@@ -1,29 +1,33 @@
-<header>
+<body>
+    <header>
 
-    <div class="navigation" id="navigation" style="z-index: 3;">
-        <div class="col-3 logo"></div>
-        <div class="col-7"></div>
-        <div class="col-1" style="display: flex; align-content: flex-end; flex-direction: row-reverse;">
-            <a href="main.html" class="active">МЕНЮ</a>
+        <div class="navigation" id="navigation" style="z-index: 3;">
+            <div class="col-5 logo"><a href="https://katacult.com/"></a></div>
+            <div class="col-5"></div>
+            <div class="col-1" style="display: flex; align-content: flex-end; flex-direction: row-reverse;">
+                <a href="main.html" class="active">МЕНЮ</a>
+            </div>
+            <div class="col-1" style="display: flex; align-content: flex-end; flex-direction: row-reverse;">
+                <a href="https://tickets.katacult.com/" class="active">БИЛЕТЫ</a>
+            </div>
         </div>
-        <div class="col-1" style="display: flex; align-content: flex-end; flex-direction: row-reverse;">
-            <a href="https://tickets.katacult.com/" class="active">БИЛЕТЫ</a>
-        </div>
-    </div>
 
-</header>
+    </header>
 
 
-<script>
-    var prevScrollpos = window.pageYOffset;
-    var navigation = document.getElementById('navigation');
-    window.onscroll = function () {
-        var currentScrollPos = window.pageYOffset;
-        if (prevScrollpos > currentScrollPos) {
-            navigation.style.top = "0";
-        } else {
-            navigation.style.top = "-10rem";
+    <script>
+        var prevScrollpos = window.pageYOffset;
+        var navigation = document.getElementById('navigation');
+        window.onscroll = function () {
+            var currentScrollPos = window.pageYOffset;
+            if (prevScrollpos > currentScrollPos) {
+                navigation.style.top = "0";
+            } else {
+                navigation.style.top = "-10rem";
+            }
+            prevScrollpos = currentScrollPos;
         }
-        prevScrollpos = currentScrollPos;
-    }
-</script>
+    </script>
+
+
+</body>
