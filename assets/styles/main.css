@@ -22,12 +22,13 @@ html{
         display: flex;
         flex-wrap: wrap;
     }
-    
+
+    .box {
+       
+    }
 
     .col {
-        float: left;
         display: flex;
-        padding: 2%;
         border: grey solid 0rem;
         flex-direction: column;
         margin-top: 20px;
@@ -116,7 +117,9 @@ html{
         visibility: hidden;
         display: none;
     }
+
     
+
 
     }
 
@@ -144,7 +147,7 @@ html{
         padding-left: 0;
         padding-right: 0;
         padding-top: 15rem;
-        border: grey solid 0rem;
+        border: grey solid 0.1rem;
 
     }
 
@@ -183,11 +186,6 @@ html{
         margin-right: 11%;
         padding-top: 1rem;
       }
-
-
-    .box {
-        align-content: flex-start;
-    }
 
     h3{
         font-family: 'Formular Bold';
