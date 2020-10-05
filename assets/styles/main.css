@@ -148,9 +148,11 @@ html{
 
     }
 
-    .no-paddingtop{
-        padding-top: 0;
+    .box{
+        min-height: 30rem;
     }
+
+  
 
     .logo {
         background:url('../Katacult/katacult_logo.svg') no-repeat left;
@@ -442,4 +444,8 @@ a .logo{
     width: 1000%;
     width: 100%;
     height: 100%;
+}
+
+.no-paddingtop{
+    padding-top: 0px;
 }
