@@ -1,54 +1,29 @@
-<body>
-    <header>
+<header>
 
-        <div class="navigation" id="navigation" style="z-index: 3;">
-            <div class="col-3">
-                <a href="https://katacult.com/"><img src="" id="logo" alt="katacult-logo"></a>
-            </div>
-            <div class="col-7"></div>
-            <div class="col-1" style="display: flex; align-content: flex-end; flex-direction: row-reverse; margin-top: 0.3%;">
-                <a href="main.html" class="active">МЕНЮ</a>
-            </div>
-            <div class="col-1" style="display: flex; align-content: flex-end; flex-direction: row-reverse; margin-top: 0.3%;">
-                <a href="https://tickets.katacult.com/" class="active">БИЛЕТЫ</a>
-            </div>
+    <div class="navigation" id="navigation" style="z-index: 3;">
+        <div class="col-3 logo"></div>
+        <div class="col-7"></div>
+        <div class="col-1" style="display: flex; align-content: flex-end; flex-direction: row-reverse;">
+            <a href="main.html" class="active">МЕНЮ</a>
         </div>
+        <div class="col-1" style="display: flex; align-content: flex-end; flex-direction: row-reverse;">
+            <a href="https://tickets.katacult.com/" class="active">БИЛЕТЫ</a>
+        </div>
+    </div>
 
-    </header>
+</header>
 
-    <script>
-        var imageUrl = "katacult_logo.svg";
-        var $window = $(window);
-        var lastWindowWidth = $window.width();
 
-        $window.resize(function () {
-            var windowWidth = $window.width();
-            if (lastWindowWidth !== windowWidth) {
-                lastWindowWidth = windowWidth;
-            }
-
-        });
-
-        if (lastWindowWidth <= 1024) {
-            imageUrl = "katacult_logo-small.svg";
+<script>
+    var prevScrollpos = window.pageYOffset;
+    var navigation = document.getElementById('navigation');
+    window.onscroll = function () {
+        var currentScrollPos = window.pageYOffset;
+        if (prevScrollpos > currentScrollPos) {
+            navigation.style.top = "0";
+        } else {
+            navigation.style.top = "-10rem";
         }
-        document.getElementById('logo').src = imageUrl;
-
-    </script>
-
-    <script>
-        var prevScrollpos = window.pageYOffset;
-        var navigation = document.getElementById('navigation');
-        window.onscroll = function () {
-            var currentScrollPos = window.pageYOffset;
-            if (prevScrollpos > currentScrollPos) {
-                navigation.style.top = "0";
-            } else {
-                navigation.style.top = "-10rem";
-            }
-            prevScrollpos = currentScrollPos;
-        }
-    </script>
-
-
-</body>
+        prevScrollpos = currentScrollPos;
+    }
+</script>

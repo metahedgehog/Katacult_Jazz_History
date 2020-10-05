@@ -409,44 +409,44 @@
             </div>
             <div class="col col-4">
             </div>
+        </div>
+
+
+
+        <div class="grid bg-white">
+            <div class="col col-1"></div>
+            <div class="col col-7">
+                <p class="text-orange"> Всё это, конечно же, проявляется по-разному.</p>
             </div>
-            
-
-
-            <div class="grid bg-white">
-                <div class="col col-1"></div>
-                <div class="col col-7">
-                    <p class="text-orange"> Всё это, конечно же, проявляется по-разному.</p>
-                </div>
-                <div class="col col-4">
-                </div>
-
-
-
-
-
-
+            <div class="col col-4">
             </div>
 
 
-            <script>
-                var $window = $(window);
-                var lastWindowWidth = $window.width();
 
-                $window.resize(function () {
-                    var windowWidth = $window.width();
-                    if (lastWindowWidth !== windowWidth) {
-                        lastWindowWidth = windowWidth;
-                    }
 
-                });
 
-                if (lastWindowWidth >= 834) {
-                    $("#fullview").fullView();
+
+        </div>
+
+
+        <script>
+            var $window = $(window);
+            var lastWindowWidth = $window.width();
+
+            $window.resize(function () {
+                var windowWidth = $window.width();
+                if (lastWindowWidth !== windowWidth) {
+                    lastWindowWidth = windowWidth;
                 }
 
+            });
 
-            </script>
+            if (lastWindowWidth >= 834) {
+                $("#fullview").fullView();
+            }
+
+
+        </script>
 
 
 </body>
