@@ -11,7 +11,7 @@ html{
 @media (max-width: 1024px) {
 
     iframe{
-        min-height: 40vh;
+        min-height: 100rem;
     }
 
     html{
@@ -34,7 +34,7 @@ html{
         padding: 2%;
         border: grey solid 0rem;
         flex-direction: column;
-        margin-top: 10rem;
+        margin-top: 20px;
         
     }
 
