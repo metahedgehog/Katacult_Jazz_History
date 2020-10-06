@@ -119,15 +119,7 @@ html{
         display: none;
     }
 
-    .progress-container {
-        z-index: 10;
-        width: 2.5%;
-        height: 100%;
-        background: #ccc;
-        position: fixed;
-        top: 0;
-        right: 0;
-      }
+
     
 
 
@@ -253,15 +245,7 @@ html{
         overflow: hidden;
     }
 
-    .progress-container {
-        z-index: 10;
-        width: 0.3%;
-        height: 100%;
-        background: #ccc;
-        position: fixed;
-        top: 0;
-        right: 0;
-      }
+
 
 }
 
@@ -467,13 +451,13 @@ a .logo{
 }
 
 
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
 	display: none;
 }
 
 ::-webkit-scrollbar-thumb {
 	display: none;
-}
+} */
 
 
 
@@ -484,12 +468,32 @@ a .logo{
     width: 40px;
   }
   
-  .content {
-    padding: 100px 0;
-    margin: 50px auto 0 auto;
-    width: 80%;
-  }
   
 .period{
     position: relative;
 }
+
+.timeline{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 30%;
+    left: 1rem;
+    color: #FF5500;
+    height: 100%;
+    
+}
+
+.timeline a {
+    font-size: 0.2rem;
+}
+
+.progress-container {
+    z-index: 10;
+    width: 0.3%;
+    height: 100%;
+    background: #ccc;
+    position: fixed;
+    top: 0;
+    right: 0;
+  }
