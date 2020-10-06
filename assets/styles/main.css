@@ -26,9 +26,7 @@ html{
         flex-wrap: wrap;
     }
 
-    .box {
-       
-    }
+
 
     .col {
         display: flex;
@@ -479,8 +477,6 @@ a .logo{
 
 
 
-
-  
   .progress-bar {
     z-index: 10;
     height: 100%;
@@ -494,3 +490,6 @@ a .logo{
     width: 80%;
   }
   
+.period{
+    position: relative;
+}
