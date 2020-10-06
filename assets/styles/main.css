@@ -465,7 +465,7 @@ a .logo{
     z-index: 10;
     height: 100%;
     background: #FF5500;
-    width: 40px;
+    width: 0.6rem;
   }
   
   
@@ -495,5 +495,5 @@ a .logo{
     background: #ccc;
     position: fixed;
     top: 0;
-    right: 0;
+    leftv: 0;
   }
