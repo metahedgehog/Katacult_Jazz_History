@@ -6,6 +6,8 @@
 
 html{
     scroll-behavior: smooth;
+    overflow: -moz-scrollbars-none;
+    scrollbar-width: none;
 }
 
 @media (max-width: 1024px) {
@@ -19,6 +21,7 @@ html{
     }
 
     .grid {
+        z-index: 2;
         display: flex;
         flex-wrap: wrap;
     }
@@ -59,7 +62,7 @@ html{
         font-size: 3rem;
         transition: color 0.2s, 0.3s ease;
         font-weight: 800;
-        margin-right: 4rem;
+        margin-right: 5rem;
         margin-top: 1rem;
       }
 
@@ -118,6 +121,15 @@ html{
         display: none;
     }
 
+    .progress-container {
+        z-index: 10;
+        width: 2.5%;
+        height: 100%;
+        background: #ccc;
+        position: fixed;
+        top: 0;
+        right: 0;
+      }
     
 
 
@@ -243,6 +255,16 @@ html{
         overflow: hidden;
     }
 
+    .progress-container {
+        z-index: 10;
+        width: 0.3%;
+        height: 100%;
+        background: #ccc;
+        position: fixed;
+        top: 0;
+        right: 0;
+      }
+
 }
 
 
@@ -362,7 +384,7 @@ h1{
 }
 
 .text-white {
-    color: white ;
+    color: #F5F5F5;
 }
 
 .text-black {
@@ -402,6 +424,8 @@ figure {
 
 figure:hover{
     width: 120%;
+    position: center;
+
 
 }
 figure:hover a{
@@ -414,7 +438,7 @@ a figure{
 
   
   .navigation a:hover {
-    color: white;
+    color: #F5F5F5;
   }
 
   
@@ -444,6 +468,29 @@ a .logo{
     height: 100%;
 }
 
-.no-paddingtop{
-    padding-top: 0px;
+
+::-webkit-scrollbar {
+	display: none;
 }
+
+::-webkit-scrollbar-thumb {
+	display: none;
+}
+
+
+
+
+  
+  .progress-bar {
+    z-index: 10;
+    height: 100%;
+    background: #FF5500;
+    width: 40px;
+  }
+  
+  .content {
+    padding: 100px 0;
+    margin: 50px auto 0 auto;
+    width: 80%;
+  }
+  
