@@ -145,10 +145,12 @@ html{
 
     .grid {
         display: flex;
-        min-height: 90vh;
+        min-height: 100rem;
         padding-left: 1.1%;
         padding-right: 1.1%;
         flex-wrap: wrap;
+        padding-top: 15vh;
+        padding-bottom: 15vh;
         
     }
 
@@ -160,7 +162,6 @@ html{
         float: left;
         padding-left: 0;
         padding-right: 0;
-        padding-top: 30vh;
         border: grey solid 0rem;
 
     }
