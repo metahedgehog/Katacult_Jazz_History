@@ -19,7 +19,7 @@
         <div class="navigation" id="navigation" style="z-index: 10;">
             <div class="col-5 logo"><a href="https://katacult.com/"></a></div>
             <div class="col-5"></div>
-            <div class="col-1" style="display: flex; align-content: flex-end; flex-direction: row-reverse;">
+            <div class="col-1" style="display: flex;">
                 <a href="index.html" class="active">МЕНЮ</a>
             </div>
             <div class="col-1" style="display: flex; align-content: flex-end; flex-direction: row-reverse;">
@@ -38,7 +38,7 @@
 
 
     <div id="main" class="grid bg-black"
-        style="align-content: center;  padding-top: 5rem !important; min-height: 100vh !important; z-index: 11 !important;">
+        style="align-content: center; padding-top: 5rem !important; min-height: 100vh !important;">
         <div class="col col-12"
             style="position: relative; justify-content: space-around; bottom: 7rem; padding-top: 10rem !important;">
             <img src="assets/images/header.svg" alt="Jazz History;">
@@ -54,7 +54,7 @@
         </div>
     </div>
 
-    <a class="upbutton text-orange" href="#main" style="z-index: 9 !important;">ВВЕРХ</a>
+    <a id="up" class="upbutton text-orange" href="#main">ВВЕРХ</a>
 
     <div class="grid bg-white" style="justify-content: space-around; padding-bottom: 0 !important;">
 
@@ -63,8 +63,9 @@
         </div>
 
         <div class="col col-2 no-paddingtop">
-            <div class="box"><a href="1912-1916.html">
-                    <h3>1912<br />1916</h3>
+            <div class="box"><a href="#1912-1916">
+                    <h3>1912</h3>
+                    <p class="text-black">1916</p>
                 </a>
             </div>
         </div>
@@ -83,7 +84,7 @@
 
         <div class="col col-2 no-paddingtop">
             <div class="box">
-                <a href="1912-1916.html">
+                <a href="#1950">
                     <h3>1950</h3>
                 </a>
             </div>
@@ -105,7 +106,7 @@
 
         <div class="col col-2 no-paddingtop">
             <div class="box">
-                <a href="1912-1916.html">
+                <a href="#1920-1940">
                     <h3>1920</h3>
                 </a>
             </div>
@@ -123,7 +124,7 @@
 
         <div class="col col-2 no-paddingtop">
             <div class="box">
-                <a href="1912-1916.html">
+                <a href="#1960">
                     <h3>1960</h3>
                 </a>
             </div>
@@ -145,8 +146,9 @@
 
         <div class="col col-2 no-paddingtop">
             <div class="box">
-                <a href="1912-1916.html">
-                    <h3>1940<br />1943</h3>
+                <a href="#1940-1950">
+                    <h3>1940<br></h3>
+                    <p class="text-black">1950</p>
                 </a>
             </div>
         </div>
@@ -163,7 +165,7 @@
 
         <div class="col col-2 no-paddingtop">
             <div class="box">
-                <a href="1912-1916.html">
+                <a href="#1970">
                     <h3>1970</h3>
                 </a>
             </div>
@@ -197,7 +199,7 @@
 
         <div class="col col-2 no-paddingtop">
             <div class="box">
-                <a href="1912-1916.html">
+                <a href="#1980">
                     <h3>1980</h3>
                 </a>
             </div>
@@ -218,7 +220,7 @@
 
 
 
-    <div class="period" id="1912-1916">
+    <div class="period">
 
         <div class="grid bg-white" style="margin:0; padding-left: 0; padding-right: 0;">
             <div class="col col-12" style="margin:0; padding: 0;">
@@ -226,7 +228,7 @@
             </div>
         </div>
 
-        <div class="grid bg-white" style="position: relative;">
+        <div class="grid bg-white" style="position: relative;" id="1912-1916">
             <div class="col col-1"></div>
             <div class="col col-5">
                 <h2 class="text-orange h-hover">1912</h2>
@@ -411,10 +413,11 @@
                     музыканты,
                     запрещалось заходить на территорию кладбища для белых, поэтому им приходилось играть ещё громче
                     за
-                    ограждением.</p></p>
+                    ограждением.</p>
+                </p>
             </div>
             <div class="col col-1"></div>
-            <div class="col col-3">  <img src="./assets/images/storyville.jpg"></div>
+            <div class="col col-3"> <img src="./assets/images/storyville.jpg"></div>
             <div class="col col-1"></div>
         </div>
 
@@ -433,7 +436,8 @@
         <div class="grid bg-white">
             <div class="col col-1"></div>
             <div class="col col-5">
-                <h2 class="text-orange h-hover">1920&ndash;<br>1940</h2>
+                <h2 class="text-orange h-hover">1920<br></h2>
+                <h3 class="text-black">&ndash;1940</h3>
             </div>
             <div class="col col-5">
                 <p>Биг-бенды опираются в большей степени на аранжировки, которые выучили на слух или прочли партитуру.
@@ -493,7 +497,8 @@
         <div class="grid bg-white">
             <div class="col col-1"></div>
             <div class="col col-5">
-                <h2 class="text-orange h-hover">1940&ndash;<br>1950</h2>
+                <h2 class="text-orange h-hover">1940</h2>
+                <h3 class="text-black">&ndash;1950</h3>
             </div>
             <div class="col col-5">
                 <p>В эпоху бибопа, в начале 1940-х, бигбенды сменились небольшими групами (квартеты, квинтеты,
@@ -724,16 +729,30 @@
     <script>
         var prevScrollpos = window.pageYOffset;
         var navigation = document.getElementById('navigation');
+        var up = document.getElementById('up');
+
+        setTimeout(() => {
+            up.style.opacity = 1;
+        }, this.animationDelay + 20);
+
         window.onscroll = function () {
             var currentScrollPos = window.pageYOffset;
             if (prevScrollpos > currentScrollPos) {
                 navigation.style.top = "0";
+                up.style.bottom = "3rem";
             } else {
                 navigation.style.top = "-10rem";
+                up.style.bottom = "-5rem";
             }
             prevScrollpos = currentScrollPos;
+            if (currentScrollPos < window.innerWidth * 2) {
+                up.style.bottom = "-5rem";
+            }
         }
     </script>
+
+
+
 
 
 
