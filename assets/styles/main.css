@@ -133,7 +133,7 @@ html{
 
     .grid {
         display: flex;
-        min-height: 100vh;
+        min-height: 90vh;
         padding-left: 1.1%;
         padding-right: 1.1%;
         flex-wrap: wrap;
@@ -148,7 +148,7 @@ html{
         float: left;
         padding-left: 0;
         padding-right: 0;
-        padding-top: 15rem;
+        padding-top: 30vh;
         border: grey solid 0rem;
 
     }
@@ -495,5 +495,9 @@ a .logo{
     background: #ccc;
     position: fixed;
     top: 0;
-    leftv: 0;
+    left: 0;
+  }
+
+  .no-paddingtop{
+      padding-top: 0;
   }
