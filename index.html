@@ -111,7 +111,7 @@
     </header>
 
     <header class="hide-pc">
-        <div class="navigation" id="navigation" style="z-index: 10;">
+        <div class="navigation-m" id="navigation-m" style="z-index: 10;">
             <div class="col-1 logo"><a href="https://katacult.com/"></a></div>
             <div class="col-6"></div>
             <div class="col-1">
@@ -843,15 +843,18 @@
             var up = document.getElementById('up');
             var navigation2 = document.getElementById('navigation-2');
             var scrollTop = $(window).scrollTop();
+            var navigationMobile = document.getElementById('navigation-m');
             window.onscroll = function () {
                 var currentScrollPos = window.pageYOffset;
                 if (prevScrollpos > currentScrollPos) {
                     navigation.style.top = "0";
                     up.style.bottom = "3rem";
+                    navigationMobile.style.top = "0";
 
                 } else {
                     navigation.style.top = "-5rem";
                     up.style.bottom = "-5rem";
+                    navigationMobile.style.top = "-50px";
                 }
 
                 if (currentScrollPos > (scrollTop - 80)) {

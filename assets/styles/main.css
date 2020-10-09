@@ -43,23 +43,21 @@ html{
         background:url('../Katacult/katacult_logo-small.svg') no-repeat left;
         margin-left: 2%;
         width: 100%;
-        padding: 1%;
-        text-indent:-9999px;
     }
     
 
-    #navigation {
+    #navigation-m {
         display: flex;
         background-color: #010201;
         position: fixed;
         width: 100%;
-        padding-top: 1.5rem;
-        padding-bottom: 0.5rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
         transition: top 0.3s;
     
       }
       
-    .navigation a {
+    .navigation-m a {
         color: #FF5500;
         text-decoration: none;
         font-size: 3rem;
@@ -70,10 +68,6 @@ html{
 
     
 
-    .navigation .col-1{
-        flex-direction: row;
-        width: 18rem;
-    }
 
 
     h3{
