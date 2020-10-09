@@ -133,38 +133,6 @@ html{
         visibility: hidden;
         display: none;
     }
-
-    .marquee {
-        display: flex;
-        width: 100%;
-        height: 10vh;
-        overflow: hidden;
-        white-space: nowrap;
-        background: #ff5500;
-        text-transform: uppercase;
-        color: #010201;
-        font-size: 2rem;
-        height: 2vh;
-        cursor: pointer; 
-    
-    }
-        .marquee:hover {
-          color: #010201; 
-        
-        }
-        .marquee-content {
-          display: flex;
-          align-items: center;
-          animation: marquee 15s linear infinite;
-        
-        }
-        .marquee-img {
-          width: 7vh;
-          display: flex;
-          justify-content: center;
-          margin: 0.5rem 2rem; 
-        
-        }
     
 
     
@@ -225,7 +193,7 @@ html{
         position: fixed;
         width: 100%;
         background-color: #010201;
-        transition: top 0.3s ease-out;
+        transition: all 0.3s ease-out;
         padding-top: 1rem;
         padding-bottom: 1rem;
         top: 3rem;
