@@ -40,6 +40,9 @@ html{
     .logo {
         background:url('../Katacult/katacult_logo-small.svg') no-repeat left;
         margin-left: 2%;
+        width: 100%;
+        padding: 2%;
+        text-indent:-9999px;
     }
     
 
@@ -59,7 +62,7 @@ html{
         text-decoration: none;
         font-size: 4rem;
         transition: color 0.2s, 0.3s ease;
-        margin-top: 1rem;
+    
         padding-right: 2rem;
       }
 
@@ -181,6 +184,7 @@ html{
         margin-left: 0.5%;
         padding: 1%;
         background-size: 30rem;
+        text-indent:-9999px;
     }
 
 
