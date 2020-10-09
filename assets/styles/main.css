@@ -226,7 +226,7 @@ html{
         position: fixed;
         width: 100%;
         background-color: #010201;
-        transition: top 0.3s ease;
+        transition: top 0.3s ease-out;
         padding-top: 1rem;
         padding-bottom: 1rem;
         top: 3rem;
@@ -237,7 +237,7 @@ html{
         position: fixed;
         width: 100%;
         background-color: #010201;
-        transition: top 0.1 ease;
+        transition: top 0.3 ease-in;
         padding-top: 1rem;
         padding-right: 1.1%;
         top: 0

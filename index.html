@@ -803,17 +803,6 @@
             </div>
         </div>
 
-        <!-- <script>
-        window.onscroll = function () { myFunction() };
-
-        function myFunction() {
-            var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
-            var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-            var scrolled = (winScroll / height) * 100;
-            document.getElementById("myBar").style.height = scrolled + "%";
-        }
-    </script> -->
-
         <script>
             var prevScrollpos = window.pageYOffset;
             var navigation = document.getElementById('navigation');
@@ -829,17 +818,18 @@
                     navigationMobile.style.top = "0";
 
                 } else {
-                    navigation.style.top = "-5rem";
+
+                    navigation.style.top = "-4rem";
                     up.style.bottom = "-5rem";
                     navigationMobile.style.top = "-50px";
                 }
 
                 if (currentScrollPos > (scrollTop - 80)) {
-                    navigation2.style.top = "-6rem"
+                    navigation2.style.top = "-5rem"
                     scrollTop = $(window).scrollTop();
                 } else {
-                    navigation2.style.top = "0"
                     navigation.style.top = "3rem";
+                    navigation2.style.top = "0"
                     scrollTop = currentScrollPos + 80;
                 }
 
