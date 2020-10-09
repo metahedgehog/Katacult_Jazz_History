@@ -53,6 +53,7 @@ html{
         width: 100%;
         padding-top: 1rem;
         padding-bottom: 1rem;
+        padding-right: 0.5%;
         transition: top 0.3s;
     
       }
@@ -63,7 +64,6 @@ html{
         font-size: 3rem;
         transition: color 0.2s, 0.3s ease;
         font-weight: 800;
-        margin-right: 4rem;
       }
 
     
