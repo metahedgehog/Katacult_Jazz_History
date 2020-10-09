@@ -53,24 +53,26 @@ html{
         background-color: #010201;
         position: fixed;
         width: 100%;
-        padding: 2rem;
+        padding-top: 1.5rem;
+        padding-bottom: 0.5rem;
         transition: top 0.3s;
-        height: 5vh;
     
       }
       
     .navigation a {
         color: #FF5500;
         text-decoration: none;
-        font-size: 5rem;
+        font-size: 3rem;
         transition: color 0.2s, 0.3s ease;
+        font-weight: 800;
+        margin-right: 4rem;
       }
 
     
 
-    .navigation.col-1{
+    .navigation .col-1{
+        flex-direction: row;
         width: 18rem;
-        
     }
 
 
