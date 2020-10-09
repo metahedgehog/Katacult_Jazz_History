@@ -54,6 +54,7 @@ html{
         padding-top: 1rem;
         padding-bottom: 1rem;
         transition: top 0.3s;
+        top: 0;
     
       }
       
