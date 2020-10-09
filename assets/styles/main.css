@@ -310,6 +310,9 @@ html{
         right: 4rem; 
         z-index: 10;
         transition: bottom 0.4s ease-in;
+        -webkit-transition: bottom 0.4s ease-in;
+        -moz-transition: bottom 0.4s ease-in;
+        -o-transition: bottom 0.4s ease-in;
 
 
 
@@ -438,6 +441,7 @@ img {
     width: 100%;
     overflow: hidden;
     transition: all 0.3 ease;
+
   }
 
 
@@ -524,6 +528,10 @@ figure {
     margin: 0;
     margin-top: 1rem;
     transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+
 }
 
 
