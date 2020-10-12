@@ -134,6 +134,16 @@ html{
         visibility: hidden;
         display: none;
     }
+
+    a {
+        font-family: 'Formular';
+        text-decoration: underline;
+    }
+    
+    a figure{
+        text-decoration: underline;
+    }
+
     
 
     
@@ -341,6 +351,14 @@ html{
             min-height: 30rem !important;
         }
     
+        a {
+            font-family: 'Formular';
+            text-decoration: none;
+        }
+        
+        a figure{
+            text-decoration: none;
+        }
 
 
 
@@ -474,10 +492,7 @@ h1{
 
 
 
-a {
-    font-family: 'Formular';
-    text-decoration: none;
-}
+
 
 
 
@@ -518,9 +533,6 @@ figure:hover a{
     text-decoration: underline #FF5500;
 }
 
-a figure{
-    text-decoration: none;
-}
 
   
   .navigation a:hover {
