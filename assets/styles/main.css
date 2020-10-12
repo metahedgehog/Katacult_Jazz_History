@@ -156,6 +156,7 @@ html{
         flex-wrap: wrap;
         padding-top: 15vh;
         padding-bottom: 15vh;
+        overflow: hidden;
     }
 
     .wrap{
@@ -171,6 +172,7 @@ html{
         padding-left: 0;
         padding-right: 0;
         border: grey solid 0rem;
+      
 
     }
     
