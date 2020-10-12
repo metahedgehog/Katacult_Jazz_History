@@ -67,9 +67,6 @@ html{
        
       }
 
-    
-
-
 
     h3{
         font-family: 'Formular Bold';
@@ -118,8 +115,6 @@ html{
         -moz-transition: bottom 0.3s ease-in;
         -webkit-transition: bottom 0.3s ease-in;
         -o-transition: bottom 0.3s ease-in;
-
-
     }
 
     figcaption {
