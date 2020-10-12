@@ -43,7 +43,7 @@ html{
     .logo {
         background:url('../Katacult/katacult_logo-small.svg') no-repeat left;
         margin-left: 2%;
-        width: 10%;
+        width: 20%;
     }
     
 
@@ -62,7 +62,7 @@ html{
     .navigation-m a {
         color: #FF5500;
         text-decoration: none;
-        font-size: 6rem;
+        font-size: 8rem;
         transition: color 0.2s, 0.3s ease;
         font-weight: 800;
        
