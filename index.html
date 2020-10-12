@@ -53,7 +53,7 @@
         </div>
 
         <div id="navigation" style="z-index: 10;display: flex; flex-wrap: wrap;">
-            <div class="col col-12 hide-m">
+            <div class="col col-12">
                 <a href="https://katacult.com" class="marquee">
                     <div class="marquee-content">
                         <div class="marquee-img"><img src="assets/Katacult/katacult-logo-black.svg" alt="katacult">
@@ -91,7 +91,7 @@
                 <a href="https://katacult.com/" class="active">ГЛАВНАЯ</a>
             </div>
             <div class="col-2"></div>
-            <div class="col-1" style="display: flex; align-content: flex-end; flex-direction: row-reverse;">
+            <div class="col-1">
                 <a href="https://tickets.katacult.com/" class="active">БИЛЕТЫ</a>
             </div>
         </div>
@@ -819,13 +819,13 @@
                     navigationMobile.style.top = "-50px";
                 }
 
-                if (currentScrollPos > (scrollTop - 80)) {
+                if (currentScrollPos > (scrollTop - 110)) {
                     navigation2.style.top = "-5rem"
                     scrollTop = $(window).scrollTop();
                 } else {
                     navigation.style.top = "3rem";
                     navigation2.style.top = "0"
-                    scrollTop = currentScrollPos + 80;
+                    scrollTop = currentScrollPos + 110;
                 }
 
                 prevScrollpos = currentScrollPos;
