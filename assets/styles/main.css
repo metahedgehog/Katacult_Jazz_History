@@ -32,7 +32,7 @@ html{
 
     .col {
         display: flex;
-        border: grey solid 0rem;
+        border: grey solid 0.1rem;
         flex-direction: column;
         margin-top: 20px;
         margin-bottom: 40px;
