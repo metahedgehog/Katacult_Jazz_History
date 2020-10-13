@@ -189,7 +189,7 @@ html{
         float: left;
         padding-left: 0;
         padding-right: 0;
-        border: grey solid 0.1rem;
+        border: grey solid 0rem;
       
 
     }
@@ -633,6 +633,13 @@ a .logo{
   }
 
  
+footer p{
+    transition: color 0.2s, 0.3s ease;
+}
+
+  footer p:hover{
+      color: #FF5500
+  }
 
 
   
