@@ -141,6 +141,12 @@ html{
         text-decoration-color:  #FF5500;;
     }
 
+    .intro-pic{
+        background:url('../images/header-m.svg') no-repeat center;
+        background-size: 100%;
+        position: relative;
+        bottom: 15rem;
+    }
     
 
     
@@ -152,6 +158,11 @@ html{
     html{
         font-size: calc(10 / 1920 * 100vw);
       
+    }
+
+    .intro-pic{
+        background:url('../images/header.svg') no-repeat center;
+        background-size: 100%;
     }
 
     .grid {
