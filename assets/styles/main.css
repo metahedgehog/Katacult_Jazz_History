@@ -175,6 +175,7 @@ html{
         flex-wrap: wrap;
         padding-top: 12vw;
         padding-bottom: 13vw;
+        transition: opacity 0.3s ease;
     }
 
     .wrap{
@@ -633,7 +634,7 @@ a .logo{
   }
 
  
-footer p{
+   footer p{
     transition: color 0.2s, 0.3s ease;
 }
 
@@ -641,6 +642,10 @@ footer p{
       color: #FF5500
   }
 
+  .novisible {
+    display: none;
+  }
+  
 
   
   @keyframes marquee {

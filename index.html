@@ -10,8 +10,10 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link rel="shortcut icon" type="image/jpg" href="assets/katacult/favicon.png">
     <meta property="og:title" content="Katacult: Jazz History">
-    <meta property="og:description" content="Полная история джаза: для новичков и для тех, кто хочет пополнить свои знания.">
-    <meta property="og:image" content="https://metahedgehog.github.io/Katacult_Jazz_History/assets/images/header_og.jpg">
+    <meta property="og:description"
+        content="Полная история джаза: для новичков и для тех, кто хочет пополнить свои знания.">
+    <meta property="og:image"
+        content="https://metahedgehog.github.io/Katacult_Jazz_History/assets/images/header_og.jpg">
     <meta property="og:url" content="https://metahedgehog.github.io/Katacult_Jazz_History/">
 
 </head>
@@ -134,7 +136,7 @@
         </div>
     </div>
 
-    <a id="up" class="upbutton text-orange" href="#dates">ВВЕРХ</a>
+    <a id="up" class="upbutton text-orange" href="#id">ВВЕРХ</a>
 
     <div class="grid bg-white" id="dates" style="justify-content: space-around; padding-bottom: 0 !important;">
 
@@ -440,11 +442,11 @@
                     от композитора к
                     исполнителю. Исполнитель играет мелодию на свой лад и никогда &laquo;не повторяет себя&raquo; и
                     композицию дважды.</p>
-                    <p> В зависимости от настроения, опыта и взаимодействия с другими музыкантами или аудиторией,
-                        исполнитель
-                        меняет мелодию,
-                        гармонию, темп или почерк.</p>
-                    <p><br><br>Всё это, конечно же, проявляется по-разному.</p>
+                <p> В зависимости от настроения, опыта и взаимодействия с другими музыкантами или аудиторией,
+                    исполнитель
+                    меняет мелодию,
+                    гармонию, темп или почерк.</p>
+                <p><br><br>Всё это, конечно же, проявляется по-разному.</p>
             </div>
             <div class="col col-4"></div>
         </div>
@@ -1780,8 +1782,34 @@
         }
     </script>
 
+    <!-- <script>
+        function handleIntersectionChange(entries) {
+            entries.forEach(function (entry) {
+                if (entry.intersectionRatio > 0.5) {
+                    entry.target.classList.add("visible");
+                } else {
+                    entry.target.classList.remove("visible");
+                }
+            });
+        }
+
+        var options = {
+            rootMargin: "0px",
+            threshold: [0, 0.25, 0.5, 0.75, 1],
+        };
+
+        var observer = new IntersectionObserver(
+            handleIntersectionChange,
+            options
+        );
+
+        document.querySelectorAll(".child").forEach(function (child) {
+            observer.observe(child);
+        });
 
 
+
+    </script> -->
 
 
 
