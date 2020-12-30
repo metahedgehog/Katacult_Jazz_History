@@ -122,6 +122,7 @@ html{
         -moz-transition: bottom 0.3s ease-in;
         -webkit-transition: bottom 0.3s ease-in;
         -o-transition: bottom 0.3s ease-in;
+        text-decoration: none;
     }
 
     figcaption {
@@ -380,8 +381,14 @@ html{
             text-decoration: none;
         }
 
+        .link:hover{
+            color: #FF5500;
+            
+        }
 
-
+        .link{
+            transition: color 0.2s, 0.3s ease;
+        }
 }
 
 
@@ -642,6 +649,7 @@ a .logo{
     display: none;
   }
   
+
 
   
   @keyframes marquee {
