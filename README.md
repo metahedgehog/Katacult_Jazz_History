@@ -7,7 +7,6 @@ Welcome to the Jazz Music History Website! This project was developed as a submi
 - [Introduction](#introduction)
 - [Features](#features)
 - [Usage](#usage)
-- [License](#license)
 
 ## Introduction
 
@@ -27,10 +26,6 @@ Upon accessing the website, you will be greeted with a visually appealing interf
 
 Feel free to interact with the elements on the website, including clicking on events in the timeline, exploring artist biographies, and listening to featured tracks. The search functionality is there to assist you in finding specific information or content within the site.
 
-## License
-
-The Jazz Music History Website is open-source and available under the [MIT License](LICENSE). Feel free to modify and distribute it as per the terms of the license.
-
----
-
-Thank you for your interest in the Jazz Music History Website. I hope you find it informative and enjoyable! Should you have any questions or feedback, please don't hesitate to contact.
+```
+https://metahedgehog.github.io/Katacult_Jazz_History/
+```
